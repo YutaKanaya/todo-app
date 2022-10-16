@@ -1,6 +1,6 @@
 import { Table } from "react-bootstrap";
 
-import type { Task } from "../store/task";
+import type { Task } from "../../store/task";
 
 import ToDoRow from "./todo_row";
 

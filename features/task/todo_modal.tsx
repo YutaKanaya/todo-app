@@ -1,6 +1,6 @@
 import { useState, Dispatch, SetStateAction } from "react";
 import { useDispatch } from "react-redux";
-import { tasksSlice } from "../store/task";
+import { tasksSlice } from "../../store/task";
 
 import dayjs from "dayjs";
 import { Button, Modal, Form, Row, Col } from "react-bootstrap";

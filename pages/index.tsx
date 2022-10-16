@@ -4,8 +4,8 @@ import { RootState } from "../store";
 
 import { Container, Button } from "react-bootstrap";
 
-import ToDoTable from "./todo_table";
-import TodoModal from "./todo_modal";
+import ToDoTable from "../features/task/todo_table";
+import TodoModal from "../features/task/todo_modal";
 
 const TodoPage = () => {
   const tasks = useSelector((state: RootState) => state.task.tasks);

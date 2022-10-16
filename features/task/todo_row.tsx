@@ -1,10 +1,9 @@
 import { useDispatch } from "react-redux";
-import dayjs from "dayjs";
 import { Button } from "react-bootstrap";
 
-import type { Task } from "../store/task";
+import type { Task } from "../../store/task";
 
-import { tasksSlice } from "../store/task";
+import { tasksSlice } from "../../store/task";
 
 type ToDoRowProps = {
   task: Task;
